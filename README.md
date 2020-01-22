@@ -14,10 +14,11 @@ Validation library using vanila JavaScript including the following:
 
 ### Installation
 
-Step 1: Dwonload or clone the reposetory.
-Step 2: put the validation folder inseide your project.
-Step 3: import index.js file in your file. Ex:  `${import Validation from './validation';}`
-Step 4: Take new instance from Validation object Ex: `${validation: new Validation()}` 
+- Step 1: Dwonload or clone the reposetory.
+- Step 2: put the validation folder inseide your project.
+- Step 3: import index.js file in your file. Ex:  `${import Validation from './validation';}`
+- Step 4: Take new instance from Validation object Ex: `${validation: new Validation()}` 
+
 ##### NOTE:
 
 ```sh
