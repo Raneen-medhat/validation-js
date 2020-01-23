@@ -1,0 +1,25 @@
+{
+  "name": "vanila-js-validation",
+  "version": "1.0.0",
+  "description": "Vanila javaScript validation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raneen-medhat/validation-js.git"
+  },
+  "keywords": [
+    "javaScript",
+    "validation",
+    "vanila",
+    "javaScript"
+  ],
+  "author": "Raneen Medhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raneen-medhat/validation-js/issues"
+  },
+  "homepage": "https://github.com/Raneen-medhat/validation-js#readme"
+}
