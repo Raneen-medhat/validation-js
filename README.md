@@ -1,6 +1,6 @@
 # Validation
 
-Validation library using vanila JavaScript including the following: 
+Validation library using vanilla JavaScript including the following: 
   - isCharacter
   - isValidEmail
   - isEqaul
@@ -14,10 +14,9 @@ Validation library using vanila JavaScript including the following:
 
 ### Installation
 
-- Step 1: Dwonload or clone the reposetory.
-- Step 2: put the validation folder inseide your project.
-- Step 3: import index.js file in your file. Ex:  `import Validation from './validation';`
-- Step 4: Take new instance from Validation object Ex: `validation: new Validation()` 
+- Step 1: `npm i vanila-js-validation --save-dev`
+- Step 2: import index.js file in your file. Ex:  `import Validation from 'vanila-js-validation';`
+- Step 3: Take new instance from Validation object Ex: `const validation =  new Validation();` 
 
 ##### NOTE:
 
