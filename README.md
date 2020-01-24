@@ -1,47 +1,70 @@
-# Validation
+# Welcome to Vanilla JavaScript validation package
+**vanilla-js-validation** is validation library using pure JavaScript including the following methods that can help you to validate your form inputs in easy way:
 
-Validation library using vanila JavaScript including the following: 
-  - isCharacter
-  - isValidEmail
-  - isEqaul
-  - exceedMaxLength
-  - matchMinLength
-  - isNumber
-  - isRequired
-  - toEnglishNumber
-  - isSaudiMobile
+- isCharacter
+
+- isValidEmail
+
+- isEqaul
+
+- exceedMaxLength
+
+- matchMinLength
+
+- isNumber
+
+- isRequired
+
+- toEnglishNumber
+
+- isSaudiMobile
+
+  
+## Installation
+
   
 
-### Installation
+- Step 1: `npm i vanila-js-validation --save-dev`
 
-- Step 1: Dwonload or clone the reposetory.
-- Step 2: put the validation folder inseide your project.
-- Step 3: import index.js file in your file. Ex:  `import Validation from './validation';`
-- Step 4: Take new instance from Validation object Ex: `validation: new Validation()` 
+- Step 2: `import Validation from 'vanila-js-validation';`
+
+- Step 3: Take new instance from **Validation** object Ex:
+	- `const validation = new Validation();`
+
+ 
 
 ##### NOTE:
 
+  
+
 ```sh
-if you use React.js : put step 4 on your component state.
+
+if you use React.js : put step 3 on your component state if you use calss component *or* before your function if you use functional component.
+
 ```
+
 ```sh
-if you use Angular2+ : put step 4 on componentDidMount function.
+
+if you use Angular2+ : put step 3 on componentDidMount method.
+
 ```
 
-### Methods
-| Name | Description |
-| ------ | ------ |
-| isCharacter | Paramters:  value. Return: true if the value is character, otherwise return false. |
-| isValidEmail | Paramters: value. Return: true if email is valid, otherwise return false. Email can accept domain and sub domain  |
-| isEqaul |  Paramters: Two values. Return: true if value one equals value two otherwise return false |
-| exceedMaxLength | Paramters: value and length as number.  Return: true if length exceed the length , otherwise return false |
-| matchMinLength | Paramters: value and length as number. Return: true if length doesn't match min-length , otherwise return false |
-| isNumber | Paramters: value. Return: true if the value is number, otherwise return false |
-| isRequired | Paramters: value. Return: true if value length equals 0 otherwise return false |
-| toEnglishNumber | Paramters: value. Return: converted Arabic numbers from Engilsh numbers.|
+  
 
+## Methods
 
+|   method             |Paramters            |Return                         |
+|----------------|-------------------------------|-----------------------------|
+|isCharcter|`value`            |true if the value is character, otherwise return false            |
+|isValidEmail| `value` | true if email is valid, otherwise return false. *Email can accept domain and sub domain* 
+|isEqaul          |`value1 , value2`|true if value one equals value two otherwise return false|
+|exceedMaxLength       |`value , expected length`            |true if length exceed the length , otherwise return false          |
+|matchMinLength          |`value , expected length`| true if length doesn't match min-length , otherwise return false|
+|isNumber          |`value`        |true if the value is number, otherwise return false          |
+|isRequired          |`value`|true if value length equals 0 otherwise return false
+toEnglishNumber|`value`|converted Arabic numbers from Engilsh numbers
 
-### Todos
+## To do
 
- - Write More functions
+- Write More functions!
+
