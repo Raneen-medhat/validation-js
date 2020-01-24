@@ -1,6 +1,6 @@
 {
   "name": "vanila-js-validation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vanilla javaScript validation library",
   "main": "index.js",
   "scripts": {
