@@ -1,7 +1,7 @@
 {
   "name": "vanila-js-validation",
   "version": "1.0.3",
-  "description": "Vanila javaScript validation library",
+  "description": "vanilla javaScript validation library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "javaScript",
     "validation",
-    "vanila",
+    "vanilla",
     "javaScript"
   ],
   "author": "Raneen Medhat",
