@@ -45,7 +45,7 @@ if you use React.js : put step 3 on your component state if you use calss compon
 
 ```sh
 
-if you use Angular2+ : put step 3 on componentDidMount method.
+if you use Angular2+ : put step 3 on ngOnInit method.
 
 ```
 
