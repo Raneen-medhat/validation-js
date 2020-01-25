@@ -5,7 +5,7 @@
 
 - isValidEmail
 
-- isEqaul
+- isEqual
 
 - exceedMaxLength
 
@@ -57,7 +57,7 @@ if you use Angular2+ : put step 3 on componentDidMount method.
 |----------------|-------------------------------|-----------------------------|
 |isCharcter|`value`            |true if the value is character, otherwise return false            |
 |isValidEmail| `value` | true if email is valid, otherwise return false. *Email can accept domain and sub domain* 
-|isEqaul          |`value1 , value2`|true if value one equals value two otherwise return false|
+|isEqual          |`value1 , value2`|true if value one equals value two otherwise return false|
 |exceedMaxLength       |`value , expected length`            |true if length exceed the length , otherwise return false          |
 |matchMinLength          |`value , expected length`| true if length doesn't match min-length , otherwise return false|
 |isNumber          |`value`        |true if the value is number, otherwise return false          |

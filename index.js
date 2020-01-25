@@ -15,7 +15,7 @@ Validation.prototype = {
     },
 
     // RETURN TRUE IF VALUE ONE EQUALS VALUE TWO OTHERWISE RETURN FALSE
-    isEqaul: (val1, val2) => {
+    isEqual: (val1, val2) => {
         return val1.toString().trim().toLowerCase() === val2.toString().trim().toLowerCase();
     },
 
