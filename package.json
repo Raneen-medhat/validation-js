@@ -2,7 +2,7 @@
   "name": "vanila-js-validation",
   "version": "1.0.7",
   "description": "Vanilla javaScript validation library",
-  "main": "index.js",
+  "main": "src/validation.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
