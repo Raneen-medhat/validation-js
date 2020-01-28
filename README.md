@@ -29,24 +29,6 @@
 - Step 2: `import Validation from 'vanila-js-validation';`
 
 
-##### NOTE:
-
-
-
-```sh
-
-if you use React.js : put step 3 on your component state if you use calss component *or* before your function if you use functional component.
-
-```
-
-```sh
-
-if you use Angular2+ : put step 3 on ngOnInit method.
-
-```
-
-
-
 ## Methods
 
 |   method             |Paramters            |Return                         |
@@ -62,4 +44,4 @@ toEnglishNumber|`value`|converted Arabic numbers from Engilsh numbers
 
 ## To do
 
-- Write More functions!
+- Write More validation methods!
