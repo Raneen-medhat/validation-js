@@ -16,6 +16,7 @@ export const email = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+
 /**
  * Regex pattern for arabic numbers
  */
+
 export const arNumbers = ['٠', '١' , '٢','٣' ,'٤', '٥', '٦', '٧', '٨','٩'];
 
 /**
